@@ -151,7 +151,7 @@ def findFile(prefices,filename):
 		if os.path.exists(newfilename):
 			return newfilename
 
-	print >> sys.stderr,newfilename,"not found in",prefices
+	print >> sys.stderr,filename,"not found in",prefices
 	raise IOError
 
 
